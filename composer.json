@@ -1,0 +1,38 @@
+{
+    "name": "mygroupdev/yii2-user",
+    "description": "Гибкой модуль пользователя",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "user"
+    ],
+    "license": "MIT",
+    "repositories":[
+        {
+          "type": "git",
+          "url": "https://github.com/mygroupdev/yii2-user.git"
+        }
+    ],
+    "authors": [
+        {
+          "name": "DDmytruk",
+          "email": "my.group.dev@gmail.com",
+          "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "^2.0.0"
+    },
+    "extra": {
+        "bootstrap": "mygroupdev\\user\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+          "mygroupdev\\user\\": ""
+        }
+    }
+}
